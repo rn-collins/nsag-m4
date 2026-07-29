@@ -171,6 +171,14 @@ body{font-family:'Manrope',sans-serif;background:#F6F3EC!important;color:#1C1B1F
 .dim-insight{background:rgba(30,54,81,0.05);border-radius:6px;padding:0.875rem 1rem;margin-bottom:1rem;font-size:0.87rem;line-height:1.6;color:var(--text);border-left:3px solid var(--navy)}
 /* CROSS-MODULE & PIONEERING EXAMPLE */
 .module-suggest{font-size:0.82rem;color:var(--muted);line-height:1.6;margin-bottom:1rem;padding:0.75rem 1rem;border:1px solid var(--border);border-radius:6px;background:var(--white)!important}
+/* RELATED MODULES (static cross-links) */
+.related-modules{max-width:640px;margin:0 auto;padding:2.5rem 1.5rem 0.5rem}
+.related-modules-label{font-family:'Syne',sans-serif;font-size:0.68rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:1.25rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0.85rem}
+.related-card{display:block;padding:1rem 1.15rem;background:var(--white)!important;border:1px solid var(--border);border-radius:var(--radius);text-decoration:none;color:inherit;transition:border-color 0.2s ease}
+.related-card:hover{border-color:var(--navy)}
+.related-card-title{font-family:'Syne',sans-serif;font-size:0.76rem;font-weight:700;color:var(--navy);margin-bottom:0.3rem}
+.related-card-desc{font-size:0.8rem;color:var(--muted);line-height:1.55}
 /* MOBILE RADAR IN RESULTS */
 .mobile-radar-wrap{display:none;margin:1.25rem 0}
 @media(max-width:900px){.mobile-radar-wrap{display:block}}
@@ -312,6 +320,20 @@ body{font-family:'Manrope',sans-serif;background:#F6F3EC!important;color:#1C1B1F
       <canvas id="radar-chart"></canvas>
     </div>
     <div class="dim-legend" id="dim-legend"></div>
+  </div>
+</div>
+
+<div class="related-modules">
+  <div class="related-modules-label">Related NSAG Modules</div>
+  <div class="related-grid">
+    <a class="related-card" href="https://nsag-m3.vercel.app">
+      <div class="related-card-title">M3 · Psychedelic Harm Reduction Governance</div>
+      <div class="related-card-desc">Harm reduction governance for a parallel emerging drug-policy domain — relevant if your organization navigates both cannabis and psychedelic policy.</div>
+    </a>
+    <a class="related-card" href="https://nsag-m9.vercel.app">
+      <div class="related-card-title">M9 · Cannabis Healthcare Visibility</div>
+      <div class="related-card-desc">Healthcare system visibility and access governance specifically for cannabis patients — the clinical-facing counterpart to public health infrastructure.</div>
+    </a>
   </div>
 </div>
 
