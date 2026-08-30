@@ -1,6 +1,6 @@
-# NSAG M4 — AI Governance
+# NSAG M4 — Cannabis Public Health Infrastructure
 
-Retired NSAG prototype module covering AI Governance.
+Retired standalone deployment of NSAG module M4, Cannabis Public Health Infrastructure (Healthcare & Clinical). The module's canonical page is https://nsag-site.vercel.app/m4.
 
 **Live:** https://nsag-m4.vercel.app
 
@@ -10,7 +10,7 @@ This prototype has been retired. The deployment remains online as a record; it i
 
 ## Repository contents
 
-`index.html`, `vercel.json`
+`index.html`, `vercel.json`, `og.png`, `favicon.svg`, `apple-touch-icon.png`
 
 ## Local development
 
